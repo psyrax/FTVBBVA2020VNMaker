@@ -3,6 +3,9 @@
     "items": {
         "type": "resource_table",
         "resources": {
+            "AssetsHackathon/FritangaTV-LogoTransparente": [
+                ".png"
+            ],
             "AssetsHackathon/Graficos/Escenas/Escena1/Asset 1": [
                 ".png"
             ],
@@ -189,6 +192,12 @@
             ],
             "AssetsHackathon/Scenes/Scene 2/shopping-bag": [
                 ".png"
+            ],
+            "AssetsHackathon/splashHackathon": [
+                ".png"
+            ],
+            "Audio/Music/Bossa": [
+                ".mp3"
             ],
             "Audio/Music/Competitive_-_Fired_Up": [
                 ".ogg"

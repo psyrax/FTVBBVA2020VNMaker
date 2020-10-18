@@ -498,29 +498,12 @@
                 "expanded": false
             },
             {
-                "id": "gs.ShowText",
+                "id": "gs.ErasePicture",
                 "params": {
                     "numberDomain": "com.degica.vnm.default",
-                    "viewport": {
-                        "type": "ui"
-                    },
-                    "predefinedPositionId": 0,
-                    "positionType": 0,
                     "number": 0,
                     "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "positionOrigin": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Dinero: {GT:2}"
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
+                    "waitForCompletion": 1,
                     "easing": {
                         "type": 0,
                         "inOut": 1
@@ -534,74 +517,11 @@
                         }
                     },
                     "fieldFlags": {
-                        "duration": 1,
-                        "easing.type": 1,
-                        "animation.type": 1,
-                        "origin": 1,
-                        "positionOrigin": 1,
-                        "zOrder": 1,
-                        "blendMode": 1,
-                        "viewport.type": 1
-                    },
-                    "expressions": [],
-                    "animations": []
+                        "duration": 1
+                    }
                 },
-                "uid": "039301FA7010A8448B3AC226164840F0E09F",
-                "indent": 0,
-                "expanded": false
-            },
-            {
-                "id": "gs.ShowText",
-                "params": {
-                    "numberDomain": "com.degica.vnm.default",
-                    "viewport": {
-                        "type": "ui"
-                    },
-                    "predefinedPositionId": 0,
-                    "positionType": 0,
-                    "number": 1,
-                    "duration": 0,
-                    "waitForCompletion": 0,
-                    "blendMode": 0,
-                    "positionOrigin": 0,
-                    "origin": 0,
-                    "zOrder": 0,
-                    "text": {
-                        "lcId": null,
-                        "defaultText": "Karma {GT:4}"
-                    },
-                    "position": {
-                        "x": 0,
-                        "y": 0
-                    },
-                    "easing": {
-                        "type": 0,
-                        "inOut": 1
-                    },
-                    "animation": {
-                        "type": 1,
-                        "movement": 0,
-                        "mask": {
-                            "graphic": null,
-                            "vague": 30
-                        }
-                    },
-                    "fieldFlags": {
-                        "duration": 1,
-                        "easing.type": 1,
-                        "animation.type": 1,
-                        "origin": 1,
-                        "positionOrigin": 1,
-                        "zOrder": 1,
-                        "blendMode": 1,
-                        "viewport.type": 1
-                    },
-                    "expressions": [],
-                    "animations": []
-                },
-                "uid": "FF7356796D384249F28AF7A8BE0B98F40570",
-                "indent": 0,
-                "expanded": false
+                "uid": "E547ACC27CDED2410B6896D505371CD63CE8",
+                "indent": 0
             },
             {
                 "id": "vn.ChangeScene",
