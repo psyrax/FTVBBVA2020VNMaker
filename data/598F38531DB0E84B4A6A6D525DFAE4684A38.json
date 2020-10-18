@@ -1,0 +1,65 @@
+{
+    "uid": "598F38531DB0E84B4A6A6D525DFAE4684A38",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "introScene",
+        "type": "vn.scene",
+        "parentId": "8A4D7CFE2B6A214E6D392DE48C297366A1EF",
+        "chapterUid": "8A4D7CFE2B6A214E6D392DE48C297366A1EF",
+        "order": 0,
+        "commands": [
+            {
+                "id": "gs.PlayVideo",
+                "params": {
+                    "video": {
+                        "name": "Neo Geo AES_MVS Intro-RhrKkg6BYu4.webm",
+                        "folderPath": "Movies",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        },
+                        "volume": 100,
+                        "playbackRate": 100
+                    },
+                    "volume": 100,
+                    "playbackRate": 100,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "92B081FD28890841CA09DE854C5B77F3025B",
+                "indent": 0
+            },
+            {
+                "id": "vn.SwitchToLayout",
+                "params": {
+                    "layout": {
+                        "name": "titleLayout"
+                    },
+                    "savePrevious": 0,
+                    "duration": 20,
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "2BD3A21255C6C6402308E9A7E6C85D18AAF8",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

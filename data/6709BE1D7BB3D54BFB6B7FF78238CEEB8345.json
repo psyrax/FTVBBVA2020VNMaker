@@ -1,0 +1,705 @@
+{
+    "uid": "6709BE1D7BB3D54BFB6B7FF78238CEEB8345",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "2  - Tener hijo?",
+        "type": "vn.scene",
+        "parentId": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+        "chapterUid": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+        "order": 4,
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Asset 40-100.jpg",
+                        "folderPath": "AssetsHackathon/Graficos/Escenas/Escena9",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "6307DF0A9C16A147E24A5A02F02063448304",
+                "indent": 0
+            },
+            {
+                "id": "vn.MessageBoxVisibility",
+                "params": {
+                    "duration": 30,
+                    "waitForCompletion": true,
+                    "id": "messageBox",
+                    "visible": 1,
+                    "animation": {
+                        "type": 0,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "D03E8AAA2E20E64E2168F3A6390A7A5286A7",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 3,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 0,
+                    "positionType": 1,
+                    "position": {
+                        "x": 92,
+                        "y": 282,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "Asset 41.png",
+                        "folderPath": "AssetsHackathon/Graficos/Escenas/Escena10",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "indent": 0,
+                "uid": "D8AD29743D99484778083BF8098D57F65ACA"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Tú y tu pareja están disfrutando de un momento muy especial en sus vidas. Todo marcha perfectamente y parece que es tiempo de formar una familia. Hay amor, estabilidad y un futuro por delante.\n\nEs tiempo de tomar una decisión. ¿Te gustaría tener hijos y formar una familia?\n"
+                    },
+                    "position": 0,
+                    "characterId": "BA77A09EK7F14A4C2BSA11BE8CC099F00810",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "F123376943E6D3419B6AE666BFE9DE0A0EFE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "No, tal vez más adelante."
+                    },
+                    "label": "",
+                    "enabled": 0,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "uid": "1C08B2B04CB6574B9878BB4674F24A5AE86E",
+                "indent": 0
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 2,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "name": "sonSwitch",
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Sí, es el momento."
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "3131A8CC331B6646D54AE5A1FE11169704CF",
+                "indent": 0
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "uid": "364C351C124DC14CB0796CE5ADAF1C69F39A",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Haber previsto los gastos de tu familia mediante un seguro fue una gran decisión. Cuando planeas los siguientes pasos hacia lo que quieres y piensas a futuro, siempre es importante preguntarse de qué manera puedes solventar esos momentos de la vida que te llegan como de sorpresa."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "04B80A273D9B914E903A1089061BFEC77787",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Un seguro de vida es un producto muy simple de usar y muy fácil de contratar. Tan solo tienes que escoger el que más se adecúe a tus necesidades y tener muy en cuenta a quién buscas beneficiar. Como en este caso, una familia que viene en camino."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "A5AE775852E4634B4F181602A259774195CA",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.MessageVisibility",
+                "params": {
+                    "duration": 30,
+                    "waitForCompletion": true,
+                    "visible": 1,
+                    "animation": {
+                        "type": 1,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1
+                    }
+                },
+                "uid": "7CA5385120D888416D78EEE809A3F990F1B9",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.CreateMessageArea",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "box": {
+                        "x": 1382,
+                        "y": 634,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 530,
+                            "height": 216
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "C1FF27A1590FA94B5E298DE27F297A279489",
+                "indent": 0
+            },
+            {
+                "id": "gs.SetTargetMessage",
+                "params": {
+                    "id": "gameMessage_message",
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 1,
+                    "type": 1,
+                    "clear": 1
+                },
+                "uid": "5EC307982E23334CA08872354B8E9B3F1D15",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Para saber más del tema, conoce las razones de por qué pensar en el futuro protege a tu familia, \nasí como toda la {Y:U}información de educación financiera sobre seguros{Y:N} que tenemos para ti."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "96A349A30A78A4470349AE031FF90311B476",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.AddHotspot",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 5,
+                    "shape": "rect",
+                    "positionType": 0,
+                    "actions": {
+                        "onClick": {
+                            "type": 1,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onEnter": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onSelect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDeselect": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onLeave": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrag": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDrop": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        },
+                        "onDropReceive": {
+                            "type": 0,
+                            "bindValue": 0,
+                            "bindValueVariable": {
+                                "scope": 0,
+                                "index": 0
+                            },
+                            "commonEventId": 0,
+                            "label": "",
+                            "switch": {
+                                "scope": 1,
+                                "index": 0
+                            },
+                            "scene": null
+                        }
+                    },
+                    "dragging": {
+                        "enabled": 0,
+                        "variable": {
+                            "scope": 1,
+                            "index": 0,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "horizontal": 1,
+                        "vertical": 0,
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 200,
+                                "height": 50
+                            }
+                        }
+                    },
+                    "position": 1,
+                    "box": {
+                        "x": 1400,
+                        "y": 612,
+                        "angle": 0,
+                        "zoom": 1,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 160
+                        },
+                        "size": {
+                            "width": 512,
+                            "height": 248
+                        }
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "textNumber": 5
+                },
+                "uid": "C5918C8F0C28F2468959B20182F5F28ECFFF",
+                "indent": 0
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "9D534A7090B4A747FA6B265228EC19D90080",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "5ABBADC03FD50241095BC5F89A69DC633ACC",
+                        "name": "3 -  Emprendimiento"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "2FFCD62F0D5A084EA13906365888458E76B2",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

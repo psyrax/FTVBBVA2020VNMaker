@@ -1,0 +1,27 @@
+{
+    "uid": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Eventos",
+        "type": "vn.chapter",
+        "order": 4,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Eventos",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ],
+        "parentId": "CHAPTER_ROOT"
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

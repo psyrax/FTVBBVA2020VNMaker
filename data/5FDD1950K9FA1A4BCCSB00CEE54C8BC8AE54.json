@@ -1,0 +1,69 @@
+{
+    "uid": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+    "isLoaded": true,
+    "lastModificationTime": 1424021629456,
+    "items": {
+        "name": "openSeguros",
+        "type": "data_record",
+        "order": 1,
+        "category": "commonEvents",
+        "data": {
+            "name": "openSeguros",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": true,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "gs.Script",
+                    "params": {
+                        "script": "nw.Shell.openExternal(\"https://www.bbva.mx/educacion-financiera/seguros.html\");"
+                    },
+                    "uid": "2F2BEE553C13A445388B9642BC27C5EFF3D1",
+                    "indent": 0,
+                    "expanded": true
+                }
+            ],
+            "index": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "singleInstance": true,
+            "defaultExpressionId": "BF7CB12110894142C299D341A545C910AA86",
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "id": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+        "parentId": "ROOT",
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

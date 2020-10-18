@@ -1,0 +1,99 @@
+{
+    "uid": "D5D18CE81A931142A54BFAC0A8E2A1111A2C",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "End Game",
+        "type": "vn.scene",
+        "parentId": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+        "chapterUid": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+        "order": 2,
+        "commands": [
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "SE ACABO!\n"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E57A0E348409524976480B9856C27BB2AD91",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 102,
+                    "state": 1,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "uid": "2A0843B4645D844A5F8A6FC94F7C0B757122",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

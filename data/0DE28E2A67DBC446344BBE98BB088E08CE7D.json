@@ -1,0 +1,680 @@
+{
+    "uid": "0DE28E2A67DBC446344BBE98BB088E08CE7D",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Compra a un solo pago con TDC",
+        "type": "vn.scene",
+        "parentId": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+        "chapterUid": "4EB0DD4C4F40C44D6C8A73F57A8DDFA87ED8",
+        "order": 0,
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "Asset 16-100.jpg",
+                        "folderPath": "AssetsHackathon/Graficos/Escenas/Escena2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 8,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 60,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 0,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 0,
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "Asset 11.png",
+                        "folderPath": "AssetsHackathon/Graficos/Escenas/Escena2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "uid": "6928D9954EFC0649DF29F62167D9BC3D481B",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "vn.MessageBoxVisibility",
+                "params": {
+                    "duration": 30,
+                    "waitForCompletion": true,
+                    "id": "messageBox",
+                    "visible": 1,
+                    "animation": {
+                        "type": 0,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "BDF39D2C2C66324FAB68AF88B9E6E595A849",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Compra con tarjeta de crédito."
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "03A192E36F013549891B35E71920E45FB66C",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 30,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 0,
+                        "movement": 1,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 0,
+                        "animation.type": 0
+                    }
+                },
+                "uid": "7A0F33F6120AB549D66BCC93EC6A9E57E10F",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 8,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 90,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 0,
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 0,
+                        "movement": 2,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 0,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "shopping-bag.png",
+                        "folderPath": "AssetsHackathon/Scenes/Scene 2",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "uid": "D4A582045DC7D24A9E5AB9C848BD64B9396F",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeNumberVariables",
+                "params": {
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "changeMoney",
+                        "index": 2,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": -999,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "30734E3E3E53C745EF598C4674B71BB4F7F9",
+                "indent": 0
+            },
+            {
+                "id": "gs.Script",
+                "params": {
+                    "script": "changeMoney();"
+                },
+                "uid": "BF344F2731FA9545B70B6598D15682CE0EDD",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.RefreshText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "uid": "0CE9CC6C670DE5403C3873E7825BF3170126",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "Pagaste con tu tarjeta de crédito. Tu ticket de compra es $999\n¡Que la disfrutes!"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "E4FF47936F3F054E1D495973E5C007EBE523",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 90,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 1,
+                        "animation.type": 1
+                    }
+                },
+                "uid": "B4D5D8D65738254A7C3A36B73E188C8BAD55",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.Script",
+                "params": {
+                    "script": "setNextSceneFTV();"
+                },
+                "uid": "80C7CB4D2843314FDF7B59181454FAA04CF2",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.SavePersistentData",
+                "params": {},
+                "uid": "B78FD89D79DEB247AF6A5CD358FDE53611D9",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "name": "nextScene",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "4392179F7D2426420709888824F98AB86F3C",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.ChangeNumberVariables",
+                "params": {
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "changeMoney",
+                        "index": 2,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 15000,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "434574A54C0C584AC93B445805FCE30084C3",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "localizableStrings": {},
+        "stringVariables": [
+            {
+                "name": "moneyFormatted",
+                "index": 0,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 1,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 2,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 3,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 4,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 9,
+                "scope": 1
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "nuberFormat",
+                "index": 0,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "moneyInteger",
+                "index": 1,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 2,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 3,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 4,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 9,
+                "scope": 1
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -1,0 +1,308 @@
+{
+    "uid": "3305C56CKBF5BA44BFS8614EE4B277E49F6A",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Sample Scene",
+        "type": "vn.scene",
+        "parentId": "3EB0897BK4EAAA43A8SA91DEE65923801AB3",
+        "chapterUid": "3EB0897BK4EAAA43A8SA91DEE65923801AB3",
+        "order": 1,
+        "commands": [
+            {
+                "id": "gs.PlayMusic",
+                "params": {
+                    "music": {
+                        "name": "Tutorial_-_Good_Mood.ogg",
+                        "volume": 100,
+                        "playbackRate": 100,
+                        "folderPath": "Audio/Music"
+                    },
+                    "fadeInDuration": 0,
+                    "playTime": {
+                        "min": 10,
+                        "max": 30
+                    },
+                    "playRange": {
+                        "start": 10,
+                        "end": 20
+                    },
+                    "playType": 0,
+                    "fieldFlags": {
+                        "music.volume": 1,
+                        "music.playbackRate": 1,
+                        "fadeInDuration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "loop": 1,
+                    "waitForCompletion": 0
+                },
+                "indent": 0,
+                "uid": "D8970CAA6E90D04EA44B0C56DECCEA62E1C8"
+            },
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "graphic": {
+                        "name": "Bench_Morning.png",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        },
+                        "folderPath": "Graphics/Backgrounds/Date Locations"
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "viewport": {
+                        "type": "scene"
+                    }
+                },
+                "indent": 0,
+                "uid": "11CAF4887C77414E518B4FF5B4C99FAC4BD8",
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeStringVariables",
+                "params": {
+                    "source": 0,
+                    "target": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetVariable": {
+                        "name": "nextScene",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetRangeScope": 0,
+                    "rangeStart": 0,
+                    "rangeEnd": 0,
+                    "operation": 0,
+                    "valueType": 0,
+                    "textValue": {
+                        "lcId": null,
+                        "defaultText": "change"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "5DC649373DEF1749ED2ADED392E5DB78A9CE",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.MessageBoxVisibility",
+                "params": {
+                    "duration": 30,
+                    "waitForCompletion": true,
+                    "visible": 1,
+                    "animation": {
+                        "type": 0,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1
+                    },
+                    "id": "messageBox"
+                },
+                "indent": 0,
+                "uid": "DCDA1E2E60D6C849B48AC3902F17BE0D5007",
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": "D700A9F7718E204480781CD1762295D8199B",
+                        "defaultText": "Hey! What are you doing here?"
+                    },
+                    "position": 0,
+                    "characterId": "D817084774AB154CCE68B7B2587B0058EBFA",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "AE1D9B194E38874E6B99C335DA1AA7359B3A",
+                "expanded": true
+            },
+            {
+                "id": "gs.Script",
+                "params": {
+                    "script": "setNextSceneFTV();"
+                },
+                "uid": "E01E873175007448491A29C2C95186A2E661",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.SavePersistentData",
+                "params": {},
+                "uid": "1C2BF5AF54DA5447C58B33F048B5607292DA",
+                "indent": 0
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "name": "nextScene",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "CDF21EE38893E8416A1AFDF6A05D116B987C",
+                "indent": 0,
+                "expanded": true
+            }
+        ],
+        "background": {
+            "graphic": {
+                "name": ""
+            },
+            "offsetX": 0,
+            "offsetY": 0
+        },
+        "localizableStrings": {
+            "D700A9F7718E204480781CD1762295D8199B": {
+                "t": "Hey! What are you doing here?",
+                "d": {
+                    "cid": "D817084774AB154CCE68B7B2587B0058EBFA",
+                    "eid": "AE1D9B194E38874E6B99C335DA1AA7359B3A"
+                }
+            }
+        },
+        "numberVariables": [
+            {
+                "name": "My Local",
+                "index": 0,
+                "scope": 0
+            },
+            {
+                "name": "",
+                "index": 1,
+                "scope": 1,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "Super Loc",
+                "index": 2,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0,
+                "domain": "com.degica.vnm.default"
+            }
+        ],
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "livePreviewDisabled": false
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

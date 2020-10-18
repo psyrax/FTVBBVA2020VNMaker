@@ -1,0 +1,225 @@
+{
+    "uid": "991520A930ADE34EC32A7AF1978B55E34775",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "prepScene",
+        "type": "vn.scene",
+        "parentId": "3EB0897BK4EAAA43A8SA91DEE65923801AB3",
+        "chapterUid": "3EB0897BK4EAAA43A8SA91DEE65923801AB3",
+        "order": 2,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 90,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Cargando"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 0,
+                        "easing.type": 1,
+                        "animation.type": 0,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "56CFD5A34BF4C642476B4285F1DA7723C6C6",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.Script",
+                "params": {
+                    "script": "gameSetupFTV();"
+                },
+                "uid": "F21263950D1C82499D18522059A2FD73A8FF",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "gs.SavePersistentData",
+                "params": {},
+                "uid": "4385DEBA068820480539ACE705399E41B001",
+                "indent": 0
+            },
+            {
+                "id": "gs.EraseText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "uid": "1B711527791AB24775580628E5EDB20353BC",
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "\nListo . . . Presiona el boton cualquiera"
+                    },
+                    "position": 0,
+                    "characterId": 0,
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "uid": "FF4DAD3933D53747F71A2F42E5B2C44D3E9F",
+                "indent": 0,
+                "expanded": true
+            },
+            {
+                "id": "vn.MessageBoxDefaults",
+                "params": {
+                    "appearDuration": 0,
+                    "disappearDuration": 0,
+                    "appearAnimation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "disappearAnimation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "appearEasing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "disappearEasing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "appearDuration": 1,
+                        "disappearDuration": 1,
+                        "appearEasing.type": 1,
+                        "appearAnimation.type": 1,
+                        "disappearEasing.type": 1,
+                        "disappearAnimation.type": 1
+                    }
+                },
+                "uid": "0780B573830393400F089CA9E4A048F8D1B4",
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "FFAD89F95D17F446292A9DD6C3649D998FA4",
+                        "name": "Intro Alonso"
+                    },
+                    "savePrevious": 0,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "uid": "D139068B3B7BE34C339B9AD7D4908B0F25B6",
+                "indent": 0
+            }
+        ],
+        "livePreviewDisabled": false,
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

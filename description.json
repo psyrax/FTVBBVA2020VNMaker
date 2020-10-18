@@ -1,0 +1,7 @@
+{ 
+    "name": "Built-in UI 720p",
+    "default": true, 
+    "group": "com.degica.vnm",
+    "order": 1
+}    
+

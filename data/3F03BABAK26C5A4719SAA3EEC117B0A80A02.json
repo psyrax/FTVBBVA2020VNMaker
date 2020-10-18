@@ -1,0 +1,242 @@
+{
+    "uid": "3F03BABAK26C5A4719SAA3EEC117B0A80A02",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Persistent Variables",
+        "type": "persistent_variables",
+        "numbers": [
+            {
+                "name": "balanceMoney",
+                "scope": 2,
+                "index": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 1,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 2,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 3,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 4,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 5,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 6,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 7,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 8,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 9,
+                "scope": 1
+            }
+        ],
+        "strings": [
+            {
+                "name": "currentSceneIndex",
+                "scope": 2,
+                "index": 0,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "nextScene",
+                "index": 1,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "scene1",
+                "index": 2,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "scene2",
+                "index": 3,
+                "scope": 1
+            },
+            {
+                "name": "scene3",
+                "index": 4,
+                "scope": 1
+            },
+            {
+                "name": "scene4",
+                "index": 5,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "scene5",
+                "index": 6,
+                "scope": 1
+            },
+            {
+                "name": "scene6",
+                "index": 7,
+                "scope": 1
+            },
+            {
+                "name": "scene7",
+                "index": 8,
+                "scope": 1
+            },
+            {
+                "name": "scene8",
+                "index": 9,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "scene9",
+                "index": 10,
+                "scope": 1
+            },
+            {
+                "name": "scene10",
+                "index": 11,
+                "scope": 1
+            },
+            {
+                "name": "scene11",
+                "index": 12,
+                "scope": 1
+            },
+            {
+                "name": "scene12",
+                "index": 13,
+                "scope": 1
+            },
+            {
+                "name": "scene13",
+                "index": 14,
+                "scope": 1
+            },
+            {
+                "name": "scene14",
+                "index": 15,
+                "scope": 1
+            },
+            {
+                "name": "scene15",
+                "index": 16,
+                "scope": 1
+            },
+            {
+                "name": "scene16",
+                "index": 17,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "scene17",
+                "index": 18,
+                "scope": 1
+            },
+            {
+                "name": "scene18",
+                "index": 19,
+                "scope": 1
+            },
+            {
+                "name": "scene19",
+                "index": 20,
+                "scope": 1
+            },
+            {
+                "name": "scene20",
+                "index": 21,
+                "scope": 1
+            },
+            {
+                "name": "formattedMoney",
+                "index": 22,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "integerMoney",
+                "index": 23,
+                "scope": 1
+            },
+            {
+                "name": "formattedKarma",
+                "index": 24,
+                "scope": 1
+            },
+            {
+                "name": "intKarma",
+                "index": 25,
+                "scope": 1
+            },
+            {
+                "name": "currentPathScene",
+                "index": 26,
+                "scope": 1
+            },
+            {
+                "name": "pastKarmaScenes",
+                "index": 27,
+                "scope": 2,
+                "domain": "com.degica.vnm.default"
+            },
+            {
+                "name": "",
+                "index": 28,
+                "scope": 1
+            },
+            {
+                "name": "",
+                "index": 29,
+                "scope": 1
+            }
+        ],
+        "booleans": [
+            {
+                "name": "",
+                "scope": 2,
+                "index": 0
+            }
+        ],
+        "lists": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "domain": "com.degica.vnm.default"
+    },
+    "summary": [
+        "name",
+        "type"
+    ],
+    "externalItems": []
+}

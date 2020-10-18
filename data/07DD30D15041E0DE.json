@@ -1,0 +1,16 @@
+{
+    "uid": "07DD30D15041E0DE",
+    "lastModificationTime": null,
+    "items": {
+        "name": "SampleProject",
+        "type": "project",
+        "version": "1.0.1101",
+        "gameTitle": ""
+    },
+    "summary": [
+        "name",
+        "type",
+        "version"
+    ],
+    "externalItems": []
+}
